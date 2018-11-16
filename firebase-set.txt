@@ -29,7 +29,24 @@ cd functions
 
 /*Install Express*/
 
-/*npm i express --save*/
+npm i express --save
+
+/*Return to rooy directory*/
+
+cd..
+
+/*Local Deploy*/
+
+firebase serve --only functions,hosting
+
+>> localhost:5000/timestap
+
+/*Production Deploy*/
+
+firebase deploy
+
+>> Hosting URL: https://fir-express-a06da.firebaseapp.com
+
 
 
 	
